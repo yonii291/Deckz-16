@@ -2,8 +2,10 @@
   "name": "starter",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "browserslist": "> 0.25%, not dead",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
   }
 }
